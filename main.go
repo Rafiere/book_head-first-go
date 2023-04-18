@@ -4,6 +4,7 @@ import (
 	"github.com/rafiere/head-first-go/chapter01"
 	"github.com/rafiere/head-first-go/chapter02"
 	"github.com/rafiere/head-first-go/chapter03"
+	"github.com/rafiere/head-first-go/chapter05"
 )
 
 func main() {
@@ -24,4 +25,14 @@ func main() {
 	chapter03.SayHi()
 	chapter03.PrintAPositiveNumber(10)
 	chapter03.Pointers()
+
+	/* Chapter 04 */
+
+	/* Chapter 05 */
+
+	chapter05.CreateArrays()
+	chapter05.SumValuesInAFile()
+	//fmt.Println(os.Getwd())
+
+	/* Chapter 06 */
 }
